@@ -1,0 +1,325 @@
+/* MAIN */
+
+.main 
+{
+    background-color: rgb(255, 234, 211);
+    border-radius: 5px 5px 0 0;
+    width: 79.5em;
+    padding: 35px 0 15px 0;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* PUB */
+
+.main-pub
+{
+    height: 313px;
+    width: 85%;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.main-pub img
+{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    display: none;
+
+}
+
+.main-pub img.active
+{
+    display: initial;
+    opacity: 1;
+}
+
+.next, .back
+{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.next
+{
+    right: 0.5em;
+}
+
+.next:hover, .back:hover
+{
+    color:orange;
+}
+
+.back
+{
+    left: 0.5em;
+}
+
+.main-pub a:hover 
+{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+.main-pub a
+{
+    transition-duration: 0.3s;
+}
+
+
+/* VENTE */
+
+.main-vente
+{
+    max-width: 97%;
+    padding-top: 25px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.vitrine
+{
+    padding: 5px 0 5px 0;
+    font-weight: 600;
+    width: 48%;
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+.vitrine-title
+{
+    background-color: rgb(96, 174, 175);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.vitrine-jeu
+{  
+    background-color: white;
+    height: 150px;
+    width: 270px;
+
+    padding: 15px 0 15px 15px;
+
+    border: 1px solid #c3c3c3;
+    border-radius: 5px 5px 5px 5px;
+    
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vitrine-jeu-img
+{
+    max-width: 110px;
+    height: auto;
+    display: block;
+}
+
+.checked 
+{
+    color: orange;
+}
+
+.vitrine a
+{
+    transition-duration: 0.3s;
+}
+
+.vitrine a:hover
+{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+.vitrine-jeu ul
+{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+
+.vitrine-jeu li
+{
+    margin-bottom: 8px;
+}
+
+.vitrine-jeu-achat a
+{
+    height: 25px;
+    padding-left: 10px;
+    transition-duration: 0s !important;
+}
+
+.vitrine-jeu-achat a:hover
+{
+    color: orange;
+    transition-duration: 0s !important;
+}
+
+.noAvis
+{
+    visibility: hidden;
+}
+
+.rating
+{
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em !important;
+}
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width: 1400px) 
+{    
+    .main
+    {
+        width: 67.3em;
+    }
+
+    .vitrine-title
+    {
+        width: 85%;
+    }
+
+    .vitrine
+    {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1124px) 
+{    
+    .main
+    {
+        width: 100%;
+        margin: 0;
+        padding: 35px 0 25px 0;
+    }
+
+    .main-pub
+    {
+        position: relative;
+        max-height: 313px;
+        width: 100%;
+    }
+
+    .back
+    {
+        left: 0.4em;
+    }
+
+    .main-vente
+    {
+        flex-direction: column;
+        justify-content:center;
+    }
+    
+    .vitrine-title
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .vitrine
+    {
+        padding: 5px 0 25px 0;
+        width: initial;
+
+        justify-content: space-around;
+    
+    }
+
+}
+
+@media screen and (max-width: 892px)
+{
+    .main-pub
+    {
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 758px)
+{
+    .main-pub
+    {
+        height: 200px;
+    }
+
+    .next, .back
+    {
+        font-size: 2.5em;
+    }
+
+    .next
+{
+    right: 0.3em;
+}
+
+.back
+{
+    left: 0.25em;
+}
+}
+
+@media screen and (max-width: 620px)
+{
+    .main-pub
+    {
+        height: 150px;
+    }
+
+    .next, .back
+    {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 608px)
+{
+    .vitrine-jeu
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 470px)
+{
+    .main-pub
+    {
+        height: 100px;
+    }
+
+    
+}

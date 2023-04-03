@@ -1,0 +1,8 @@
+{
+    "pubs": [
+        { "name": "Cthulhu - Le pacte d'Innsmouth", "photo": "images/pub/cthulhu.webp", "link": "#"},
+        { "name": "CoraQuest", "photo": "images/pub/coraquest.webp", "link": "#"},
+        { "name": "Drones vs Goelands", "photo": "images/pub/dronevsgoelands.webp", "link": "#"},
+        { "name": "Tracks", "photo": "images/pub/tracks.webp", "link": "#"}
+    ]
+}

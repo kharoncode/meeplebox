@@ -1,0 +1,19 @@
+{
+    "best": [
+        { "photo": "images/jeux/root.jpg", "name": "Root", "rating": 5, "price": 79 },
+        { "photo": "images/jeux/cthulhu.webp", "name": "Cthulhu : Death May Die", "rating": 5, "price": 99 },
+        { "photo": "images/jeux/zombicide.jpg", "name": "Zombicide - Invader", "rating": 4, "price": 120 },
+        { "photo": "images/jeux/narak.webp", "name": "Les Ruines Perdues de Narak", "rating": 4, "price": 59 },
+        { "photo": "images/jeux/coraquest.jpg", "name": "CoraQuest", "rating": 4, "price": 40 },
+        { "photo": "images/jeux/sevenwonders.webp", "name": "7 Wonders", "rating": 5, "price": 24 }
+    ],
+
+    "news": [
+        { "photo": "images/jeux/cthulhu-dark-miskatonic-shoreside-conservatory.webp", "name": "Cthulhu Dark", "rating": 0, "price": "21.90" },
+        { "photo": "images/jeux/tortuga-2199-shipwreck-bay.webp", "name": "Tortuga 2199", "rating": 2.8, "price": "55.90" },
+        { "photo": "images/jeux/ecosystem-coral-reef.webp", "name": "Ecosystem - Coral Reef", "rating": 0, "price": "16.90" },
+        { "photo": "images/jeux/ragnarocks.webp", "name": "Ragnarocks", "rating": 0, "price": "49.95" },
+        { "photo": "images/jeux/planet-unknown.webp", "name": "Planet Unknown", "rating": 0, "price": "83.90" },
+        { "photo": "images/jeux/perdition-s-mouth-abyssal-rift-cannibal-s-howl.webp", "name": "Perdition's Mouth: Abyssal Rift", "rating": 0, "price": "32.90" }
+    ]
+}
